@@ -1,0 +1,13 @@
+div{
+    background-color: aqua;
+    width:200px;
+    height:300px;
+    border:1px solid green;
+}
+h1{
+ color: bisque;
+    
+}
+.outer{
+    background-color:green;
+}

@@ -1,0 +1,36 @@
+html, body {
+ height:100%;
+ margin:0px;
+ 
+}
+* {
+  box-sizing:border-box; 
+}
+
+header {
+ border-bottom:1px solid black;
+ height:50px;
+}
+
+section, aside {
+ height:calc(100% - 100px);
+}
+
+section {
+ float:left;
+ width:60%;
+ background-color:red;
+}
+
+aside {
+ float:right;
+ width:40%;
+ background-color: green;
+
+}
+
+footer {
+ border-top:1px solid black;
+ height:50px;
+ clear:both;
+}

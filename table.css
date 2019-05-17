@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+.table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td {
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+}

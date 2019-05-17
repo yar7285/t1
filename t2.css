@@ -1,0 +1,28 @@
+html, body, div{
+    height: 100%;
+    margin: 0px;
+}
+header, div {
+    box-sizing: border-box;
+    margin: auto;
+    height:calc(100% - 100px);
+}
+header {
+    width: 960px;
+}
+.left, .center, .right {
+    height: 100%;
+    display: inline-block;
+}
+.left {
+    width: 30%;
+    background-color: green;
+}
+.right {
+    width: 40%;
+    background-color: aqua;
+}
+.center {
+    width: 30%;
+    background-color: greenyellow;
+}
